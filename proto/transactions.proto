@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+
+package transactions.v1;
+
+
+import "google/protobuf/timestamp.proto";
+
+
+option go_package = "transaction-service/proto/gen/transactions/v1;transactionsv1";
+
+
+message CreateTransactionRequest {
+    string coinid = 1;
+    string userid = 2;
+    string dataid = 3;
+    double coinused = 4;
+    google.protobuf.Timestamp transaction_timestamp = 5;
+    google.protobuf.Timestamp expiry_date = 6;
+    string platform_name = 7;
+}
+
+
+message Transaction {
+    string id = 1;
+    string coinid = 2;
+    string userid = 3;
+    string dataid = 4;
+    double coinused = 5;
+    google.protobuf.Timestamp transaction_timestamp = 6;
+    google.protobuf.Timestamp expiry_date = 7;
+    string platform_name = 8;
+}
+
+
+service Transactions {
+    rpc CreateTransaction(CreateTransactionRequest) returns (Transaction);
+}
