@@ -1,4 +1,4 @@
-module transaction-service
+module go-back-transaction-service
 
 go 1.24.0
 

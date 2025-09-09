@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"transaction-service/internal/config"
-	"transaction-service/internal/db"
-	"transaction-service/internal/graph"
-	"transaction-service/internal/middleware"
+	"github.com/devifyX/go-back-transaction-service/internal/config"
+	"github.com/devifyX/go-back-transaction-service/internal/db"
+	"github.com/devifyX/go-back-transaction-service/internal/graph"
+	"github.com/devifyX/go-back-transaction-service/internal/middleware"
 	"github.com/graphql-go/handler"
 )
 

@@ -9,10 +9,10 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"transaction-service/internal/config"
-	"transaction-service/internal/db"
-	"transaction-service/internal/grpcapi"
-	transactionsv1 "transaction-service/proto"
+	"github.com/devifyX/go-back-transaction-service/internal/config"
+	"github.com/devifyX/go-back-transaction-service/internal/db"
+	"github.com/devifyX/go-back-transaction-service/internal/grpcapi"
+	transactionsv1 "github.com/devifyX/go-back-transaction-service/proto"
 
 	"google.golang.org/grpc"
 )

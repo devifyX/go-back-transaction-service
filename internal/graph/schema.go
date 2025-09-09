@@ -3,8 +3,8 @@ package graph
 import (
 	"time"
 
-	"transaction-service/internal/db"
-	"transaction-service/internal/models"
+	"github.com/devifyX/go-back-transaction-service/internal/db"
+	"github.com/devifyX/go-back-transaction-service/internal/models"
 	"github.com/graphql-go/graphql"
 )
 

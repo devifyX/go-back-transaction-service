@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"transaction-service/internal/db"
-	"transaction-service/internal/models"
-	transactionsv1 "transaction-service/proto"
+	"github.com/devifyX/go-back-transaction-service/internal/db"
+	"github.com/devifyX/go-back-transaction-service/internal/models"
+	transactionsv1 "github.com/devifyX/go-back-transaction-service/proto"
 
 	"golang.org/x/time/rate"
 	"google.golang.org/grpc/codes"

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"transaction-service/internal/models"
+	"github.com/devifyX/go-back-transaction-service/internal/models"
 )
 
 type TransactionFilter struct {

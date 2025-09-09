@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/devifyX/go-back-transaction-service/internal/server"
 	"github.com/joho/godotenv"
-	"transaction-service/internal/server"
 )
 
 func main() {
