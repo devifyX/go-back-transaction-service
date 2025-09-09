@@ -1,4 +1,4 @@
-module go-back-transaction-service
+module github.com/devifyX/go-back-transaction-service
 
 go 1.24.0
 
